@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Decoration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        .underline {
+            text-decoration: underline;
+            color: #FF5733; /* Red */
+        }
+
+        .line-through {
+            text-decoration: line-through;
+            color: #33FF57; /* Green */
+        }
+
+        .overline {
+            text-decoration: overline;
+            color: #3357FF; /* Blue */
+        }
+
+        .underline-line-through {
+            text-decoration: underline line-through;
+            color: #F333FF; /* Purple */
+        }
+
+        .underline-overline {
+            text-decoration: underline overline;
+            color: #FF8333; /* Orange */
+        }
+
+        .line-through-overline {
+            text-decoration: line-through overline;
+            color: #33FFFF; /* Cyan */
+        }
+
+        .all-decorations {
+            text-decoration: underline line-through overline;
+            color: #FF33FF; /* Magenta */
+        }
+    </style>
+</head>
+<body>
+
+    <p class="underline">This paragraph has an underline.</p>
+    <p class="line-through">This paragraph has a line-through.</p>
+    <p class="overline">This paragraph has an overline.</p>
+    <p class="underline-line-through">This paragraph has both underline and line-through.</p>
+    <p class="underline-overline">This paragraph has both underline and overline.</p>
+    <p class="line-through-overline">This paragraph has both line-through and overline.</p>
+    <p class="all-decorations">This paragraph has underline, line-through, and overline.</p>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* p{
+    width: 50px;
+    text-align: justify;
+} */
+
+/* p{
+    text-decoration: underline overline line-through;
+    color: red;
+    font-size: 150px;
+} */
+
+/* p{
+    text-decoration: underline greenyellow overline;
+    text-decoration: line-through blue;
+    color: red;
+    font-size:100px;
+    text-align: center;
+} */
+ /* p{
+    text-decoration:dashed underline greenyellow;
+    color: red;
+    font-size: 100px;
+    text-align: center;
+ } */
+ /* p{
+    text-decoration:double underline greenyellow;
+    color: red;
+    font-size: 100px;
+    text-align: center;
+ } */
+ /* p{
+    text-decoration:wavy underlineeenyellow;
+    color: red;
+    font-size: 100px;
+    text-align: center;
+ }*/
+  .p1{
+    text-decoration:dotted  underline  greenyellow;
+    color: red;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+ } 
+
+.p2{
+      text-transform: capitalize;
+}
+.p3{
+   text-transform: lowercase;
+}
+
+ /* dotted-წერტილები
+    dashed-დანაწევრებული ხაზები
+    double-ორი ხაზი
+    wavy-ტალღები
+ */
+/* /* uppercase-დიდი ასოები */
+/* ნიშნავს, რომ ტექსტი ავტომატურად შეიცვლება ისე, რომ თითოეული სიტყვის პირველი ასო იქნას 
+დიდი (capital) ასო. მაგალითად, თუ ტექსტი იქნება "გამარჯობა მსოფლიო", ის გადაიქცევა "გამარჯობა 
+მსოფლიო"-ში, ანუ სიტყვების პირველი ასოები იქნებიან დიდი. */
+/* CSS პროპერტი გამოიყენება იმისთვის, რომ ტექსტი მთლიანი მცირე ასოებით გამოჩნდეს. ეს მნიშნავს, რომ ყველა ასო კონვერტირდება მცირე (lowercase) ასოებში. */
