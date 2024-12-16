@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    .image-container {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
+    }
+    .image-container img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 2px solid #000;
+    }
+    button {
+      background-color: rgb(0, 255, 0);
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin: 10px;
+    }
+    input {
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-container">
+    <!-- 1st image -->
+    <div><img src="./1c95e753c23de3e3cc5b0ddb43ac2be3.jpg" alt="Image 1"></div>
+    <!-- 2nd image -->
+    <div><img src="./2c0167133c0f66e3b9c4fbfaafeda562.jpg" alt="Image 2"></div>
+    <!-- 3rd image -->
+    <div><img src="./c4cb564fe0f824112f6f314b68546fdf.jpg" alt="Image 3"></div>
+  </div>
+
+  <div>
+    <!-- Buttons -->
+    <button onclick="window.location.href=''">Go to Site 1</button>
+    <button onclick="window.location.href=''">Go to Site 2</button>
+    <button onclick="window.location.href=''">Go to Site 3</button>
+  </div>
+
+  <div>
+    <!-- Inputs -->
+    <input type="text" placeholder="Enter text 1" style="background-color: rgb(240, 240, 240);">
+    <input type="text" placeholder="Enter text 2" style="background-color: rgb(200, 200, 200);">
+    <input type="text" placeholder="Enter text 3" style="background-color: rgb(180, 180, 180);">
+  </div>
+
+</body>
+</html>

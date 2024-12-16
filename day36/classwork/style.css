@@ -1,0 +1,66 @@
+/* body{
+    background-color: transparent;
+}
+p{
+    font-size: 30px;
+}
+#p1{
+    color: pink;
+}
+#p2{
+    color: greenyellow;
+}
+#p3{
+    color: red;
+}
+#p4{
+    color:darkgrey;
+}
+
+
+.paragraph{
+    color: red;
+   
+}
+.paragraph1{
+    color:aqua
+}
+
+.big-text b {
+    color: red;
+}
+.big-text i{
+    color:greenyellow ;
+}
+.big-text{
+    color: brown;
+} */
+ .square{
+    width: 400px;
+    height: 200px;
+    background-color: darkmagenta;
+    font-size: 50px;
+ }
+ .square p{
+    text-align: center;
+    font-size:40%;
+ }
+ .child-div{
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+ }
+
+
+ .square2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(60, 84, 124);
+ }
+
+ .square3{
+    width: 300px;
+    height: 300px;
+    background-color: #FFF;
+ }
+ /* hex code  #*/
