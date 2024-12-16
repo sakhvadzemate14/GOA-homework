@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+    color: darkmagenta;
+    font-size: 50px;
+    transition: 1s;
+}
+a:hover{
+    color:red;
+    text-decoration: underline;
+    font-size: 30px;
+}
+button{
+    color: greenyellow;
+    background-color: darkblue;
+    width: 60px;
+    transition: 1s;
+    height: 60px;
+}
+button:hover{
+    color: cadetblue;
+    background-color: wheat;
+    width:80px;
+    height: 70px;
+    border-radius: 250px;
+}
+img{
+   width: 250px;
+   height: 250px;
+   transition: 1s;
+}
+img:hover{
+    width:400px ;
+    height: 400px;
+    transition: 1s; 
+}

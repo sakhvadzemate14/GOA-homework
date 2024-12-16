@@ -1,0 +1,55 @@
+.link1{
+    text-decoration: none;
+    font-size: 150px;
+    transition: 2s;
+}
+.link1:hover{
+    text-decoration: underline;
+    color: green;
+    font-size: 80px;
+}
+button{
+    color: greenyellow;
+    background-color: black;
+    transition: 1s;
+    width: 70px;
+    height: 20px;
+}
+button:hover{
+    color: cyan;
+    width: 100px;
+    border-radius: 10px;
+   
+}
+button:active{
+    /* width: 80px; */
+    background-color: chartreuse;
+    color:black;
+    height: 50px;
+}
+.link3:visited{
+    color: green;
+    font-size: 30px;
+}
+link4:link{
+    color: green;
+}
+.test:link{
+    color:red;
+}
+.test:visited{
+    color:greenyellow;
+}
+
+/* ჩვენ თუ a კოდს დავუწერთ text-decoration:none-ს a კოდს რო ქვემოთ ხაზი აქ ეგ გაუქრება */
+
+/* psuedo selector არის რომელიც იწერება  სელექტორის შემდეგ   ანუ ორი წერტილის შემდეგ : */
+
+
+/*  
+hover-გასმა/გადასმა
+
+*/
+/* transition-გადასვლა */
+/* active-ნიშნავს როცა ღილაკს დააჭერ იმოქმედოს */
+/* link: da visited: aris anu tu erti saiti arasodes gamogiyenebia da mag saitze sanam gadaxval roa vtqvat goa oriented academy is saiti da sanam magas daaawer l=mauss ro miitan qvemot ro xazi esveba da sxvva feri roa da roca gadaxval da ukan dabrundebi eg feri gagiavdeba da sul egre darcheba */

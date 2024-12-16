@@ -1,0 +1,32 @@
+/* body{
+        width: 50%;
+        height: ;
+} */
+table {
+        border: 1px solid red;
+        padding:5px;
+        width: 100%;
+        
+}
+th ,  td{
+        border: 1px solid red;
+        font-size: 25px;
+       border-style: dashed;
+}
+th{
+        background-color: black;
+        color:greenyellow;
+        text-align: center;
+}
+
+
+tr:nth-child(even){
+        background-color: #d8d7d7;
+}
+tr:hover{
+        background-color: #ddd;
+
+}
+/* amit moinisha  luwi rigebi nth-child aris  is seleqtori romelic agvarchevines aq rigs sataurs ar tvlis arc odd ze da arc evenze*/
+
+/* padding ესა განსაზღვრავს შიდა სივრცეს ტექსტსა და უჯრედის საზღვრებს შორის */

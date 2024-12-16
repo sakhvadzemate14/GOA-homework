@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #f4f4f4, #eaeaea);
+    color: #333;
+    padding: 40px;
+    line-height: 1.8;
+}
+
+h1 {
+    text-align: center;
+    color: #555;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 15px 0;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Default link styles */
+a:link {
+    color: #007BFF;
+    background-color: #E6F2FF;
+    border: 1px solid #BBD9FF;
+}
+
+a:visited {
+    color: #6A0DAD;
+    background-color: #F3E6FF;
+    border: 1px solid #D3B8FF;
+}
+
+a:hover {
+    color: white;
+    background-color: #333;
+    border-color: #333;
+}
+
+a:active {
+    background-color: #555;
+    font-size: 1.2em;
+}
+
+/* Custom black link styles */
+.custom-link {
+    color: black;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.custom-link:hover {
+    color: white;
+    background-color: #444;
+    border-color: #444;
+}
+
+/* Underline on hover styles */
+.underline-link {
+    color: #0056b3;
+    background-color: #f9f9f9;
+    border: 1px solid transparent;
+}
+
+.underline-link:hover {
+    text-decoration: underline;
+    border-color: #0056b3;
+}

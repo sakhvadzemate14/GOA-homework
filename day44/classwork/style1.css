@@ -1,0 +1,15 @@
+.ul1{
+    list-style-type: armenian;
+}
+.ul2{
+    list-style-type:square;
+}
+.ul3{
+    list-style-type: lower-latin;
+}
+.ul4{
+    list-style-type:decimal;
+}
+.ul5{
+    list-style-type: decimal-leading-zero;
+}

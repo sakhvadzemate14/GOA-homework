@@ -1,0 +1,43 @@
+/* list style */
+/* 
+    type
+    position
+    image
+    am sam frofertis aertianebs list style
+*/
+
+
+ /* .ul1{
+    list-style-type: none;
+}
+
+.ul2{
+    list-style-type: circle;
+}
+
+.ul3{
+    list-style-type: square;
+}
+
+.ul4{
+    list-style-type: disc;
+}
+
+.ul5{
+    list-style-type: armenian;
+}
+ .ul6{
+        /* list-style-type: decimal aris ricxvi } ;  */ 
+  /* .ul6{
+    list-style-type: georgian;
+  }
+ .ul7{
+    list-style-type: lower-roman;
+   }   */
+  .ul1{
+    list-style-position: inside;
+  }
+  .ul2{
+    list-style-position: outside;
+  }
+  
