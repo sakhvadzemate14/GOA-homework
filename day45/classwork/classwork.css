@@ -1,0 +1,98 @@
+/* ნაზ სტილი form-ის ყველა ელემენტისათვის */
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* label სტილი და ფორმის input-ის ახლოს გადატანა */
+  label {
+    font-size: 14px;
+    color: #555;
+    display: inline-block;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  /* input-ის სტილი */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border 0.3s ease;
+  }
+  
+  /* label-ის ფერის ცვლილება focus-ის დროს */
+  input:focus + label {
+    color: #0056b3;
+  }
+  
+  /* placeholder სტილი */
+  input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+/* label ელემენტი inline-ელემენტის სტილი */
+label {
+    display: inline-block;
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* პატარა ჩრდილი */
+  }
+  
+  /* input-ის სტილი */
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e1e1e1;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: border 0.3s ease;
+  }
+  
+  /* focus დროს სტილიზაცია */
+  input:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+  }
+  
+  /* hover დროს label სტილები */
+  label:hover {
+    color: #0073e6;
+    cursor: pointer;
+  }
+  .submit-btn {
+    background-color: transparent;
+    border: 2px solid #333;
+    color: #333;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Hover ეფექტი */
+  .submit-btn:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Active (დაჭერის) ეფექტი */
+  .submit-btn:active {
+    background-color: #444;
+    border-color: #222;
+  }
+  
